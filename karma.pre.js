@@ -14,8 +14,8 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'vendor/angular/angular.js',
-      'vendor/angular-mocks/angular-mocks.js',
+      'node_modules/angular/angular.js',
+      'node_modules/angular-mocks/angular-mocks.js',
       'src/**/*.js',
       'test/**/*.js'
     ],
@@ -23,7 +23,7 @@ module.exports = function(config) {
 
     // list of files to exclude
     exclude: [
-      
+
     ],
 
 
@@ -31,7 +31,7 @@ module.exports = function(config) {
     preprocessors:{
         "src/**/*.js":["coverage"]
     },
-    
+
     // test results reporter to use
     // possible values: 'dots', 'progress', 'junit', 'growl', 'coverage'
     reporters:["progress","coverage"],
