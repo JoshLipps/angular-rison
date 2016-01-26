@@ -1,6 +1,6 @@
 {
   "name": "angular-rison",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Rison Object Encoding Service for AngularJS",
   "main": "dist/angular-rison.min.js",
   "directories": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/thebigredgeek/angular-rison.git"
+    "url": "git://github.com/JoshLipps/angular-rison.git"
   },
   "keywords": [
     "encoding",
@@ -23,6 +23,10 @@
     "rison"
   ],
   "author": "Andrew E. Rhyne",
+  "contributors": [{
+    "name": "Josh Lipps",
+    "email": "josh.lipps@gmail.com"
+  }],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/thebigredgeek/angular-rison/issues"
