@@ -1,6 +1,6 @@
 {
   "name": "angular-rison",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Rison Object Encoding Service for AngularJS",
   "main": "dist/angular-rison.min.js",
   "directories": {
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "grunt",
-    "dist": "gurnt dist",
+    "dist": "grunt dist",
     "build": "grunt build",
     "clean": "rimraf node_modules && npm cache clean"
   },
